@@ -1,0 +1,19 @@
+{
+  "name": "esbuild-deno-plugin",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx esbuild src/index.ts --outfile=dist/index.js --format=cjs"
+  },
+  "author": "Jayden",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^17.0.30",
+    "@typescript-eslint/eslint-plugin": "^5.21.0",
+    "@typescript-eslint/parser": "^5.21.0",
+    "esbuild": "^0.14.38",
+    "eslint": "^8.14.0",
+    "typescript": "^4.6.4"
+  }
+}
